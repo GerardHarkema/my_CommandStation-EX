@@ -176,10 +176,10 @@
     #endif
   #else
     #define WIFI_WARNING
-    #define WIFI_ON true //false modified by Gerard
+    #define WIFI_ON false 
   #endif
 #else
-  #define WIFI_ON true //false modified by Gerard
+  #define WIFI_ON false //modified by Gerard
 #endif
 
 #ifndef WIFI_FORCE_AP
